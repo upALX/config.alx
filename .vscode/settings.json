@@ -1,0 +1,38 @@
+{
+    "window.title": "What i cannot create, i do not understand!",
+    "window.zoomLevel": 0.7,
+    "workbench.colorTheme": "Omni",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "workbench.startupEditor": "newUntitledFile", // new vscode open a new file 
+    "editor.rulers": [107, 130], // editor colunm
+    "editor.renderLineHighlight": "gutter", // add the line overflow on left side of line and not all line 
+    "editor.fontLigatures": true, // lig  => !=
+    "workbench.iconTheme": "symbols", // install the extension Symbols
+    "workbench.editor.labelFormat": "short", // minimal name of file on top
+    "explorer.compactFolders": false, // dont show a folder and the file into folder
+    "editor.semanticHighlighting.enabled": false, // unify the colors overflow, and 1 parameters for exemple always have the same color, independent if the parameter is an function...
+    "breadcrumbs.enabled": false, // show in top the path of file opened and being edited
+    "workbench.activityBar.location": "hidden", // removes the menu of extension, debug, etc... YOU CAN ACCESS USING hotcue == ctrl + Q
+    "editor.scrollbar.horizontal": "hidden", // removes the scroll H 
+    "editor.scrollbar.vertical":  "hidden", //REMOVE the scripp v
+    "workbench.statusBar.visible": false, // modify the visibility of line down with interpreter information, extentions act, type file, version, etc...
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "apc.font.family": "fira-code-nerd, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
+  "apc.stylesheet": { // install the extencion apc customize UI
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, tsconfig.*, prettier*"
+    },
+    "terminal.integrated.fontSize": 14,
+}
